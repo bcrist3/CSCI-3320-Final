@@ -31,4 +31,4 @@ while madeChange:
     if shortestNode is not None:
         madeChange = True
         data.finalizedNodes += [shortestNode]
-print("The shortest route to correct is: " + str(data.dictionary[data.correct]))
+print("The least amount of guesses possible is: " + str(data.dictionary[data.correct]))

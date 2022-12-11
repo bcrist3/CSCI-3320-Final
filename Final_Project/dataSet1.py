@@ -117,46 +117,6 @@ Maredith.addEdge(main.WeightedEdge(correct, 1, "1- Yes my character is Maredith"
 Maredith.addEdge(main.WeightedEdge(right, 1, "2- No my character is not Maredith"))
 Jan.addEdge(main.WeightedEdge(correct, 1, "1- Yes my character is Jan"))
 Jan.addEdge(main.WeightedEdge(right, 1, "2- No my character is not Jan"))
-"""
-start.addEdge((left))
-start.addEdge(main.WeightedEdge(right,1,))
-left.edges += [eMainManager, eNotMainManager]
-left1.edges += [eManagerSales, eManagerNotSales]
-left11.edges += [eSalesFarm, eSalesNotFarm]
-left111.edges += [eFarmDwight, eFarmJim]
-Dwight.edges += [eDwightRight, eDwightWrong]
-Jim.edges += [eJimRight, eJimWrong]
-Michael.edges += [eMichaelRight, eMichaelWrong]
-left12.edges += [eSalesAndy, eSalesDeath]
-Andy.edges += [eAndyRight, eAndyWrong]
-left122.edges += [eDeathCreed, eDeathDarryl]
-Creed.edges += [eCreedRight, eCreedWrong]
-Darryl.edges += [eDarrylRight, eDarrylWrong]
-left2.edges += [eAccountGamble, eAccountHR]
-left21.edges += [eGambleKevin, eGambleOscar]
-Kevin.edges += [eKevinRight, eKevinWrong]
-Oscar.edges += [eOscarRight, eOscarWrong]
-left22.edges += [eHRToby, eHRWuphf]
-Toby.edges += [eTobyRight, eTobyWrong]
-left222.edges += [eWuphfRyan, eWuphfStanley]
-Ryan.edges += [eRyanRight, eRyanWrong]
-Stanley.edges += [eStanleyRight, eStanleyWrong]
-right.edges += [eMarriedSales, eMarriedName]
-right1.edges += [eSalesBob, eSalesMose]
-right2.edges += [eNameMiddle, eNameHead]
-right11.edges += [eBobPhyllis, eBobPam]
-right12.edges += [eMoseAngela, eMoseHolly]
-right21.edges += [eMiddleErin, eMiddleKelly]
-right22.edges += [eHeadMaredith, eHeadJan]
-Phyllis.edges += [ePhyllisRight, ePhyllisWrong]
-Pam.edges += [ePamRight, ePamWrong]
-Holly.edges += [eHollyRight, eHollyWrong]
-Angela.edges += [eAngelaRight, eAngelaWrong]
-Kelly.edges += [eKellyRight, eKellyWrong]
-Erin.edges += [eErinRight, eErinWrong]
-Maredith.edges += [eMaredithRight, eMaredithWrong]
-Jan.edges += [eJanRight, eJanWrong]
-"""
 
 graph = main.Graph([start, left, left1, left11, Michael, left111, Dwight, Jim, left12, Andy, left122, Creed, Darryl, left2, left21, Kevin, Oscar, left22, Toby, left222, Ryan, Stanley, right, right1, right11, Phyllis, Pam, right12, Angela, Holly, right2, right21, Erin, Kelly, right22, Maredith, Jan, correct])
 graph2 = main.Graph([start, left, left1, left11, Michael, left111, Dwight, Jim, left12, Andy, left122, Creed, Darryl, left2, left21, Kevin, Oscar, left22, Toby, left222, Ryan, Stanley, right, right1, right11, Phyllis, Pam, right12, Angela, Holly, right2, right21, Erin, Kelly, right22, Maredith, Jan, correct])
